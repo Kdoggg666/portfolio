@@ -1,8 +1,27 @@
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
 /* --------------------- Nav ----------------*/
 .logo-image {
     height: 150px;
     width: 150px;
 }
+
+.logo-image {
+    filter: url(filters.svg#grayscale);
+    /* Firefox 3.5+ */
+  
+    -webkit-filter: grayscale(1);
+    /* Google Chrome & Safari 6+ */
+  }
+  .logo-image:hover {
+    filter: none;
+    -webkit-filter: none;
+  }
 
 .bg-dark {
     background-color: rgba(46, 49, 49, .2) !important;
@@ -96,4 +115,13 @@ footer ul li:not(:last-child) {
 
 .footer-social-links a:hover {
     color: #ccffcc;
+}
+
+/*--- Portfolio icons ---*/
+
+.link-icon img{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 50px;
+    border: 5px solid grey;
 }
