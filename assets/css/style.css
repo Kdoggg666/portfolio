@@ -1,0 +1,65 @@
+.logo-image {
+    height: 150px;
+    width: 150px;
+}
+
+.bg-dark {
+    background-color: transparent !important;
+  }
+
+
+
+body {
+    /* Location of the image */
+    background-image: url(https://res.cloudinary.com/dyxe4g62g/image/upload/v1634374914/images/albums/Portfolio/IMG_1276_euo6wh.jpg);
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Background image doesn’t tile */
+    background-repeat: no-repeat;
+    
+    /* Background image is fixed in the viewport so that it doesn’t move when
+    the content’s height is greater than the image’s height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based
+    on the container’s size */
+    background-size: cover;
+    
+    /* Set a background color that will be displayed
+    while the background image is loading */
+    background-color: #464646;
+    }
+
+/* --------------------- Footer ----------------*/
+.clear {
+    clear: both;
+    height: 110px;
+  }
+  
+ 
+  .footer-style {
+    background-color: transparent;
+  
+    height: 80px;
+    text-align: center;
+  }
+  
+  .footer-social-links {
+    font-size: 35px;
+    letter-spacing: 20px;
+    text-align: center;
+  
+    padding: 10px;
+  }
+  
+  .footer-social-links a {
+    color: #ff073a;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  
+  .footer-social-links a:hover {
+    color: #fafafa;
+  }
