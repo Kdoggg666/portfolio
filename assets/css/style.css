@@ -125,3 +125,8 @@ footer ul li:not(:last-child) {
     margin-bottom: 50px;
     border: 5px solid grey;
 }
+
+.img-link {
+    height: 100%;
+    width: 100%;
+}
