@@ -130,3 +130,36 @@ footer ul li:not(:last-child) {
     height: 100%;
     width: 100%;
 }
+
+/*--- Home page banner ---*/
+.home-banner {
+    margin-top: 300px;
+}
+
+.home-banner-list {
+color: white;
+
+}
+
+.home-banner-list li {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px black;
+}
+
+.home-banner-list li:not(:last-child) {
+    border-right: 4px solid white;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+/*--- media query ---*/
+
+@media only screen and (max-width: 1850px) {
+    .home-banner-list li:not(:last-child) {
+        border-right: none;
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+}
