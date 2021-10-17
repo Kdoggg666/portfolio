@@ -14,14 +14,15 @@
 .logo-image {
     filter: url(filters.svg#grayscale);
     /* Firefox 3.5+ */
-  
+
     -webkit-filter: grayscale(1);
     /* Google Chrome & Safari 6+ */
-  }
-  .logo-image:hover {
+}
+
+.logo-image:hover {
     filter: none;
     -webkit-filter: none;
-  }
+}
 
 .bg-dark {
     background-color: rgba(46, 49, 49, .2) !important;
@@ -43,14 +44,14 @@
     text-shadow: none;
 }
 
-.navbar-nav > .active > a {
+.navbar-nav>.active>a {
     color: #ccffcc !important;
-    text-decoration: underline;
-  }
 
-  .navbar-dark .navbar-nav .nav-link:hover {
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
     color: #e6ffe6;
-  }
+}
 
 /* --------------------- Body ----------------*/
 body {
@@ -119,7 +120,7 @@ footer ul li:not(:last-child) {
 
 /*--- Portfolio icons ---*/
 
-.link-icon img{
+.link-icon img {
     height: 400px;
     width: 400px;
     margin-bottom: 50px;
@@ -132,12 +133,31 @@ footer ul li:not(:last-child) {
 }
 
 /*--- Home page banner ---*/
-.home-banner {
+.name-tag {
     margin-top: 300px;
 }
 
+.email-link {
+    text-decoration: none;
+    color: #e6ffe6;
+    font-size: 30px;
+}
+
+.name-tag h1 {
+    font-size: 75px;
+    color: #ccffcc;
+    text-shadow: 2px 2px black;
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.home-banner {
+    margin-top: 5px;
+}
+
 .home-banner-list {
-color: white;
+    color: white;
 
 }
 
@@ -162,4 +182,51 @@ color: white;
         margin-right: 20px;
         padding-right: 20px;
     }
+
+}
+
+
+@media only screen and (max-width: 1199px) {
+    footer ul li:not(:last-child) {
+        border-right: none;
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+}
+
+/*--- about boxy ---*/
+.about-box {
+    width: 100%;
+    text-align: center;
+    border: 5px solid white;
+    background-color: rgba(46, 49, 49, .8);
+}
+
+.about-image {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.about-box h1 {
+    color: #ccffcc;
+    text-shadow: 2px 2px black;
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 700;
+    font-size: 75px;
+}
+
+.about-box h5 {
+    color: lightgray;
+    font-size: 30px;
+}
+
+.about-box hr {
+    background-color: mintcream;
+    width: 200px;
+}
+
+.about-box p {
+    color: mintcream;
+    font-size: 20px;
 }
