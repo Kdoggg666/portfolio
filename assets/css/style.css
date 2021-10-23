@@ -200,6 +200,7 @@ footer ul li:not(:last-child) {
     text-align: center;
     border: 5px solid rgba(255, 255, 255, .8);
     background-color: rgba(46, 49, 49, .8);
+    margin: 10px;
 }
 
 .red {
@@ -313,4 +314,14 @@ hr {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+.port-link {
+    text-decoration: none;
+    color: #ccffcc;
+}
+
+.port-link:hover {
+    text-decoration: none;
+    color: #e6ffe6;
 }
